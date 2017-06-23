@@ -1,5 +1,5 @@
 # CVPR 2017 Abstracts Collection
-_Collection of CVPR 2017, including titles, links, authors, abstracts and my own comments. Created by Michael Liang, NUDT. Note that ** and <  > are my own comments._
+_Collection of CVPR 2017, including titles, links, authors, abstracts and my own comments. Created by Michael Liang, NUDT. Note that ** and Comment<  > are my own comments._
 
 ## Machine Learning 1
 
@@ -9,238 +9,200 @@ Spotlight 1-1A
 
 Xiaobo Wang, Xiaojie Guo, Zhen Lei, Changqing Zhang, Stan Z. Li
 
-_[]_
+_Abstract[]_
 
-<>
+Comment<>
 
-#### *Borrowing Treasures From the Wealthy: Deep Transfer Learning Through Selective Joint Fine-Tuning
-
-https://arxiv.org/abs/1702.08690
+#### *Borrowing Treasures From the Wealthy: Deep Transfer Learning Through Selective Joint Fine-TuningAbstract[PDF](https://arxiv.org/abs/1702.08690)
 
 Weifeng Ge, Yizhou Yu
 
-_[Deep neural networks require a large amount of labeled training data during supervised learning. However, collecting and labeling so much data might be infeasible in many cases. In this paper, we introduce a source-target selective joint fine-tuning scheme for improving the performance of deep learning tasks with insufficient training data. In this scheme, a target learning task with insufficient training data is carried out simultaneously with another source learning task with abundant training data. However, the source learning task does not use all existing training data. Our core idea is to identify and use a subset of training images from the original source learning task whose low-level characteristics are similar to those from the target learning task, and jointly fine-tune shared convolutional layers for both tasks. Specifically, we compute descriptors from linear or nonlinear filter bank responses on training images from both tasks, and use such descriptors to search for a desired subset of training samples for the source learning task. Experiments demonstrate that our selective joint fine-tuning scheme achieves state-of-the-art performance on multiple visual classification tasks with insufficient training data for deep learning. Such tasks include Caltech 256, MIT Indoor 67, Oxford Flowers 102 and Stanford Dogs 120. In comparison to fine-tuning without a source domain, the proposed method can improve the classification accuracy by 2% - 10% using a single model.]_
+_Abstract[Deep neural networks require a large amount of labeled training data during supervised learning. However, collecting and labeling so much data might be infeasible in many cases. In this paper, we introduce a source-target selective joint fine-tuning scheme for improving the performance of deep learning tasks with insufficient training data. In this scheme, a target learning task with insufficient training data is carried out simultaneously with another source learning task with abundant training data. However, the source learning task does not use all existing training data. Our core idea is to identify and use a subset of training images from the original source learning task whose low-level characteristics are similar to those from the target learning task, and jointly fine-tune shared convolutional layers for both tasks. Specifically, we compute descriptors from linear or nonlinear filter bank responses on training images from both tasks, and use such descriptors to search for a desired subset of training samples for the source learning task. Experiments demonstrate that our selective joint fine-tuning scheme achieves state-of-the-art performance on multiple visual classification tasks with insufficient training data for deep learning. Such tasks include Caltech 256, MIT Indoor 67, Oxford Flowers 102 and Stanford Dogs 120. In comparison to fine-tuning without a source domain, the proposed method can improve the classification accuracy by 2% - 10% using a single model.]_
 
-<a source-target selective joint fine-tuning scheme with insufficient training data; insufficient & abundant task with similar low-level feature trained simultaneously; share conv layers; help labelling data,>
+Comment<a source-target selective joint fine-tuning scheme with insufficient training data; insufficient & abundant task with similar low-level feature trained simultaneously; share conv layers; help labelling data,>
 
-#### **The More You Know: Using Knowledge Graphs for Image Classification
-
-https://arxiv.org/abs/1612.04844
+#### **The More You Know: Using Knowledge Graphs for Image ClassificationAbstract[PDF](https://arxiv.org/abs/1612.04844)
 
 Kenneth Marino, Ruslan Salakhutdinov, Abhinav Gupta
 
-_[One characteristic that sets humans apart from modern learning-based computer vision algorithms is the ability to acquire knowledge about the world and use that knowledge to reason about the visual world. Humans can learn about the characteristics of objects and the relationships that occur between them to learn a large variety of visual concepts, often with few examples. This paper investigates the use of structured prior knowledge in the form of knowledge graphs and shows that using this knowledge improves performance on image classification. We build on recent work on end-to-end learning on graphs, introducing the Graph Search Neural Network as a way of efficiently incorporating large knowledge graphs into a vision classification pipeline. We show in a number of experiments that our method outperforms standard neural network baselines for multi-label classification.]_
+_Abstract[One characteristic that sets humans apart from modern learning-based computer vision algorithms is the ability to acquire knowledge about the world and use that knowledge to reason about the visual world. Humans can learn about the characteristics of objects and the relationships that occur between them to learn a large variety of visual concepts, often with few examples. This paper investigates the use of structured prior knowledge in the form of knowledge graphs and shows that using this knowledge improves performance on image classification. We build on recent work on end-to-end learning on graphs, introducing the Graph Search Neural Network as a way of efficiently incorporating large knowledge graphs into a vision classification pipeline. We show in a number of experiments that our method outperforms standard neural network baselines for multi-label classification.]_
 
-< the real way to AI >
+Comment< the real way to AI >
 
-#### Dynamic Edge-Conditioned Filters in Convolutional Neural Networks on Graphs
-
-https://arxiv.org/abs/1704.02901
+#### Dynamic Edge-Conditioned Filters in Convolutional Neural Networks on GraphsAbstract[PDF](https://arxiv.org/abs/1704.02901)
 
 Martin Simonovsky, Nikos Komodakis
-_[A number of problems can be formulated as prediction on graph-structured data. In this work, we generalize the convolution operator from regular grids to arbitrary graphs while avoiding the spectral domain, which allows us to handle graphs of varying size and connectivity. To move beyond a simple diffusion, filter weights are conditioned on the specific edge labels in the neighborhood of a vertex. Together with the proper choice of graph coarsening, we explore constructing deep neural networks for graph classification. In particular, we demonstrate the generality of our formulation in point cloud classification, where we set the new state of the art, and on a graph classification dataset, where we outperform other deep learning approaches.]_
+_Abstract[A number of problems can be formulated as prediction on graph-structured data. In this work, we generalize the convolution operator from regular grids to arbitrary graphs while avoiding the spectral domain, which allows us to handle graphs of varying size and connectivity. To move beyond a simple diffusion, filter weights are conditioned on the specific edge labels in the neighborhood of a vertex. Together with the proper choice of graph coarsening, we explore constructing deep neural networks for graph classification. In particular, we demonstrate the generality of our formulation in point cloud classification, where we set the new state of the art, and on a graph classification dataset, where we outperform other deep learning approaches.]_
 
-< graph-structured data >
+Comment< graph-structured data >
 
-#### *Convolutional Neural Network Architecture for Geometric Matching
-
-https://arxiv.org/abs/1703.05593
+#### *Convolutional Neural Network Architecture for Geometric MatchingAbstract[PDF](https://arxiv.org/abs/1703.05593)
 
 Ignacio Rocco, Relja ArandjeloviÄ‡, Josef Sivic
 
-_[We address the problem of determining correspondences between two images in agreement with a geometric model such as an affine or thin-plate spline transformation, and estimating its parameters. The contributions of this work are three-fold. First, we propose a convolutional neural network architecture for geometric matching. The architecture is based on three main components that zmimic the standard steps of feature extraction, matching and simultaneous inlier detection and model parameter estimation, while being trainable end-to-end. Second, we demonstrate that the network parameters can be trained from synthetically generated imagery without the need for manual annotation and that our matching layer significantly increases generalization capabilities to never seen before images. Finally, we show that the same model can perform both instance-level and category-level matching giving state-of-the-art results on the challenging Proposal Flow dataset.]_
+_Abstract[We address the problem of determining correspondences between two images in agreement with a geometric model such as an affine or thin-plate spline transformation, and estimating its parameters. The contributions of this work are three-fold. First, we propose a convolutional neural network architecture for geometric matching. The architecture is based on three main components that zmimic the standard steps of feature extraction, matching and simultaneous inlier detection and model parameter estimation, while being trainable end-to-end. Second, we demonstrate that the network parameters can be trained from synthetically generated imagery without the need for manual annotation and that our matching layer significantly increases generalization capabilities to never seen before images. Finally, we show that the same model can perform both instance-level and category-level matching giving state-of-the-art results on the challenging Proposal Flow dataset.]_
 
-< geomatric matching; synthetically generated image; instance-level& category-level; matching layer,> 
+Comment< geomatric matching; synthetically generated image; instance-level& category-level; matching layer,> 
 
-#### Deep Affordance-Grounded Sensorimotor Object Recognition
-
-https://arxiv.org/abs/1704.02787
+#### Deep Affordance-Grounded Sensorimotor Object RecognitionAbstract[PDF](https://arxiv.org/abs/1704.02787)
 
 Spyridon Thermos, Georgios Th. Papadopoulos, Petros Daras, Gerasimos Potamianos
 
-_[It is well-established by cognitive neuroscience that human perception of objects constitutes a complex process, where object appearance information is combined with evidence about the so-called object "affordances", namely the types of actions that humans typically perform when interacting with them. This fact has recently motivated the "sensorimotor" approach to the challenging task of automatic object recognition, where both information sources are fused to improve robustness. In this work, the aforementioned paradigm is adopted, surpassing current limitations of sensorimotor object recognition research. Specifically, the deep learning paradigm is introduced to the problem for the first time, developing a number of novel neuro-biologically and neuro-physiologically inspired architectures that utilize state-of-the-art neural networks for fusing the available information sources in multiple ways. The proposed methods are evaluated using a large RGB-D corpus, which is specifically collected for the task of sensorimotor object recognition and is made publicly available. Experimental results demonstrate the utility of affordance information to object recognition, achieving an up to 29% relative error reduction by its inclusion.]_
+_Abstract[It is well-established by cognitive neuroscience that human perception of objects constitutes a complex process, where object appearance information is combined with evidence about the so-called object "affordances", namely the types of actions that humans typically perform when interacting with them. This fact has recently motivated the "sensorimotor" approach to the challenging task of automatic object recognition, where both information sources are fused to improve robustness. In this work, the aforementioned paradigm is adopted, surpassing current limitations of sensorimotor object recognition research. Specifically, the deep learning paradigm is introduced to the problem for the first time, developing a number of novel neuro-biologically and neuro-physiologically inspired architectures that utilize state-of-the-art neural networks for fusing the available information sources in multiple ways. The proposed methods are evaluated using a large RGB-D corpus, which is specifically collected for the task of sensorimotor object recognition and is made publicly available. Experimental results demonstrate the utility of affordance information to object recognition, achieving an up to 29% relative error reduction by its inclusion.]_
 
-< Sensorimotor Object Recognition >
+Comment< Sensorimotor Object Recognition >
 
-#### Discovering Causal Signals in Images
-
-https://arxiv.org/abs/1605.08179
+#### Discovering Causal Signals in ImagesAbstract[PDF](https://arxiv.org/abs/1605.08179)
 
 David Lopez-Paz, Robert Nishihara, Soumith Chintala, Bernhard SchÃ¶lkopf, Léon Bottou
 
-_[The purpose of this paper is to point out and assay observable causal signals within collections of static images. We achieve this goal in two steps. First, we take a learning approach to observational causal inference, and build a classifier that achieves state-of-the-art performance on finding the causal direction between pairs of random variables, when given samples from their joint distribution. Second, we use our causal direction finder to effectively distinguish between features of objects and features of their contexts in collections of static images. Our experiments demonstrate the existence of (1) a relation between the direction of causality and the difference between objects and their contexts, and (2) observable causal signals in collections of static images.]_
+_Abstract[The purpose of this paper is to point out and assay observable causal signals within collections of static images. We achieve this goal in two steps. First, we take a learning approach to observational causal inference, and build a classifier that achieves state-of-the-art performance on finding the causal direction between pairs of random variables, when given samples from their joint distribution. Second, we use our causal direction finder to effectively distinguish between features of objects and features of their contexts in collections of static images. Our experiments demonstrate the existence of Abstract[PDF](1) a relation between the direction of causality and the difference between objects and their contexts, and Abstract[PDF](2) observable causal signals in collections of static images.]_
 
-< causal singals>
+Comment< causal singals>
 
 #### *On Compressing Deep Models by Low Rank and Sparse Decomposition
 
 Xiyu Yu, Tongliang Liu, Xinchao Wang, Dacheng Tao
 
-_[]_
+_Abstract[]_
 
-< >
+Comment< >
 
 Oral 1-1A
 
-#### PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation
-
-https://arxiv.org/abs/1612.00593
+#### PointNet: Deep Learning on Point Sets for 3D Classification and SegmentationAbstract[PDF](https://arxiv.org/abs/1612.00593)
 
 Charles R. Qi, Hao Su, Kaichun Mo, Leonidas J. Guibas
 
-_[Point cloud is an important type of geometric data structure. Due to its irregular format, most researchers transform such data to regular 3D voxel grids or collections of images. This, however, renders data unnecessarily voluminous and causes issues. In this paper, we design a novel type of neural network that directly consumes point clouds and well respects the permutation invariance of points in the input. Our network, named PointNet, provides a unified architecture for applications ranging from object classification, part segmentation, to scene semantic parsing. Though simple, PointNet is highly efficient and effective. Empirically, it shows strong performance on par or even better than state of the art. Theoretically, we provide analysis towards understanding of what the network has learnt and why the network is robust with respect to input perturbation and corruption.]_
+_Abstract[Point cloud is an important type of geometric data structure. Due to its irregular format, most researchers transform such data to regular 3D voxel grids or collections of images. This, however, renders data unnecessarily voluminous and causes issues. In this paper, we design a novel type of neural network that directly consumes point clouds and well respects the permutation invariance of points in the input. Our network, named PointNet, provides a unified architecture for applications ranging from object classification, part segmentation, to scene semantic parsing. Though simple, PointNet is highly efficient and effective. Empirically, it shows strong performance on par or even better than state of the art. Theoretically, we provide analysis towards understanding of what the network has learnt and why the network is robust with respect to input perturbation and corruption.]_
 
-< point cloud, 3D>
+Comment< point cloud, 3D>
 
-#### ***Universal Adversarial Perturbations
-
-https://arxiv.org/abs/1610.08401
+#### ***Universal Adversarial PerturbationsAbstract[PDF](https://arxiv.org/abs/1610.08401)
 
 Seyed-Mohsen Moosavi-Dezfooli, Alhussein Fawzi, Omar Fawzi, Pascal Frossard
 
-_[Given a state-of-the-art deep neural network classifier, we show the existence of a universal (image-agnostic) and very small perturbation vector that causes natural images to be misclassified with high probability. We propose a systematic algorithm for computing universal perturbations, and show that state-of-the-art deep neural networks are highly vulnerable to such perturbations, albeit being quasi-imperceptible to the human eye. We further empirically analyze these universal perturbations and show, in particular, that they generalize very well across neural networks. The surprising existence of universal perturbations reveals important geometric correlations among the high-dimensional decision boundary of classifiers. It further outlines potential security breaches with the existence of single directions in the input space that adversaries can possibly exploit to break a classifier on most natural images.]_
+_Abstract[Given a state-of-the-art deep neural network classifier, we show the existence of a universal Abstract[PDF](image-agnostic) and very small perturbation vector that causes natural images to be misclassified with high probability. We propose a systematic algorithm for computing universal perturbations, and show that state-of-the-art deep neural networks are highly vulnerable to such perturbations, albeit being quasi-imperceptible to the human eye. We further empirically analyze these universal perturbations and show, in particular, that they generalize very well across neural networks. The surprising existence of universal perturbations reveals important geometric correlations among the high-dimensional decision boundary of classifiers. It further outlines potential security breaches with the existence of single directions in the input space that adversaries can possibly exploit to break a classifier on most natural images.]_
 
-< using unseen perturbations to break a classifier, destory DL>
+Comment< using unseen perturbations to break a classifier, destory DL>
 
-#### *Unsupervised Pixel-Level Domain Adaptation With Generative Adversarial Networks
-
-https://arxiv.org/abs/1612.05424
+#### *Unsupervised Pixel-Level Domain Adaptation With Generative Adversarial NetworksAbstract[PDF](https://arxiv.org/abs/1612.05424)
 
 Konstantinos Bousmalis, Nathan Silberman, David Dohan, Dumitru Erhan, Dilip Krishnan
 
-_[Collecting well-annotated image datasets to train modern machine learning algorithms is prohibitively expensive for many tasks. One appealing alternative is rendering synthetic data where ground-truth annotations are generated automatically. Unfortunately, models trained purely on rendered images often fail to generalize to real images. To address this shortcoming, prior work introduced unsupervised domain adaptation algorithms that attempt to map representations between the two domains or learn to extract features that are domain-invariant. In this work, we present a new approach that learns, in an unsupervised manner, a transformation in the pixel space from one domain to the other. Our generative adversarial network (GAN)-based method adapts source-domain images to appear as if drawn from the target domain. Our approach not only produces plausible samples, but also outperforms the state-of-the-art on a number of unsupervised domain adaptation scenarios by large margins. Finally, we demonstrate that the adaptation process generalizes to object classes unseen during training.]_
+_Abstract[Collecting well-annotated image datasets to train modern machine learning algorithms is prohibitively expensive for many tasks. One appealing alternative is rendering synthetic data where ground-truth annotations are generated automatically. Unfortunately, models trained purely on rendered images often fail to generalize to real images. To address this shortcoming, prior work introduced unsupervised domain adaptation algorithms that attempt to map representations between the two domains or learn to extract features that are domain-invariant. In this work, we present a new approach that learns, in an unsupervised manner, a transformation in the pixel space from one domain to the other. Our generative adversarial network Abstract[PDF](GAN)-based method adapts source-domain images to appear as if drawn from the target domain. Our approach not only produces plausible samples, but also outperforms the state-of-the-art on a number of unsupervised domain adaptation scenarios by large margins. Finally, we demonstrate that the adaptation process generalizes to object classes unseen during training.]_
 
-< generate domain-invariant annotations, adapts source-domain images to appear as if drawn from the target domain ;GAN>
+Comment< generate domain-invariant annotations, adapts source-domain images to appear as if drawn from the target domain ;GAN>
 
-#### Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network (PDF, code)
-
-https://arxiv.org/pdf/1609.04802.pdf
-
-https://github.com/leehomyc/Photo-Realistic-Super-Resoluton
+#### Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network Abstract[PDF](PDF, code)Abstract[PDF](https://arxiv.org/pdf/1609.04802.pdf)Abstract[PDF](https://github.com/leehomyc/Photo-Realistic-Super-Resoluton)
 
 Christian Ledig, Lucas Theis, Ferenc HuszÃƒÂ¡r, Jose Caballero, Andrew Cunningham, Alejandro Acosta, Andrew Aitken, Alykhan Tejani, Johannes Totz, Zehan Wang, Wenzhe Shi
 
-_[Despite the breakthroughs in accuracy and speed of single image super-resolution using faster and deeper convolutional neural networks, one central problem remains largely unsolved: how do we recover the finer texture details when we super-resolve at large upscaling factors? The behavior of optimization-based super-resolution methods is principally driven by the choice of the objective function. Recent work has largely focused on minimizing the mean squared reconstruction error. The resulting estimates have high peak signal-to-noise ratios, but they are often lacking high-frequency details and are perceptually unsatisfying in the sense that they fail to match the fidelity expected at the higher resolution. In this paper, we present SRGAN, a generative adversarial network (GAN) for image super-resolution (SR). To our knowledge, it is the first framework capable of inferring photo-realistic natural images for 4x upscaling factors. To achieve this, we propose a perceptual loss function which consists of an adversarial loss and a content loss. The adversarial loss pushes our solution to the natural image manifold using a discriminator network that is trained to differentiate between the super-resolved images and original photo-realistic images. In addition, we use a content loss motivated by perceptual similarity instead of similarity in pixel space. Our deep residual network is able to recover photo-realistic textures from heavily downsampled images on public benchmarks. An extensive mean-opinion-score (MOS) test shows hugely significant gains in perceptual quality using SRGAN. The MOS scores obtained with SRGAN are closer to those of the original high-resolution images than to those obtained with any state-of-the-art method.]_
+_Abstract[Despite the breakthroughs in accuracy and speed of single image super-resolution using faster and deeper convolutional neural networks, one central problem remains largely unsolved: how do we recover the finer texture details when we super-resolve at large upscaling factors? The behavior of optimization-based super-resolution methods is principally driven by the choice of the objective function. Recent work has largely focused on minimizing the mean squared reconstruction error. The resulting estimates have high peak signal-to-noise ratios, but they are often lacking high-frequency details and are perceptually unsatisfying in the sense that they fail to match the fidelity expected at the higher resolution. In this paper, we present SRGAN, a generative adversarial network Abstract[PDF](GAN) for image super-resolution Abstract[PDF](SR). To our knowledge, it is the first framework capable of inferring photo-realistic natural images for 4x upscaling factors. To achieve this, we propose a perceptual loss function which consists of an adversarial loss and a content loss. The adversarial loss pushes our solution to the natural image manifold using a discriminator network that is trained to differentiate between the super-resolved images and original photo-realistic images. In addition, we use a content loss motivated by perceptual similarity instead of similarity in pixel space. Our deep residual network is able to recover photo-realistic textures from heavily downsampled images on public benchmarks. An extensive mean-opinion-score Abstract[PDF](MOS) test shows hugely significant gains in perceptual quality using SRGAN. The MOS scores obtained with SRGAN are closer to those of the original high-resolution images than to those obtained with any state-of-the-art method.]_
 
-< Super-Resolution, GAN>
+Comment< Super-Resolution, GAN>
 
 ## 3D Vision 1
 
 Spotlight 1-1B
 
-#### Context-Aware Captions From Context-Agnostic Supervision
-
-https://arxiv.org/abs/1701.02870
+#### Context-Aware Captions From Context-Agnostic SupervisionAbstract[PDF](https://arxiv.org/abs/1701.02870)
 
 Ramakrishna Vedantam, Samy Bengio, Kevin Murphy, Devi Parikh, Gal Chechik
 
-_[We introduce an inference technique to produce discriminative context-aware image captions (captions that describe differences between images or visual concepts) using only generic context-agnostic training data (captions that describe a concept or an image in isolation). For example, given images and captions of "siamese cat" and "tiger cat", we generate language that describes the "siamese cat" in a way that distinguishes it from "tiger cat". Our key novelty is that we show how to do joint inference over a language model that is context-agnostic and a listener which distinguishes closely-related concepts. We first apply our technique to a justification task, namely to describe why an image contains a particular fine-grained category as opposed to another closely-related category of the CUB-200-2011 dataset. We then study discriminative image captioning to generate language that uniquely refers to one of two semantically-similar images in the COCO dataset. Evaluations with discriminative ground truth for justification and human studies for discriminative image captioning reveal that our approach outperforms baseline generative and speaker-listener approaches for discrimination. ]_
+_Abstract[We introduce an inference technique to produce discriminative context-aware image captions Abstract[PDF](captions that describe differences between images or visual concepts) using only generic context-agnostic training data Abstract[PDF](captions that describe a concept or an image in isolation). For example, given images and captions of "siamese cat" and "tiger cat", we generate language that describes the "siamese cat" in a way that distinguishes it from "tiger cat". Our key novelty is that we show how to do joint inference over a language model that is context-agnostic and a listener which distinguishes closely-related concepts. We first apply our technique to a justification task, namely to describe why an image contains a particular fine-grained category as opposed to another closely-related category of the CUB-200-2011 dataset. We then study discriminative image captioning to generate language that uniquely refers to one of two semantically-similar images in the COCO dataset. Evaluations with discriminative ground truth for justification and human studies for discriminative image captioning reveal that our approach outperforms baseline generative and speaker-listener approaches for discrimination. ]_
 
-< distinguished image caption>
+Comment< distinguished image caption>
 
-#### Global Hypothesis Generation for 6D Object Pose Estimation
-
-https://arxiv.org/abs/1612.02287
+#### Global Hypothesis Generation for 6D Object Pose EstimationAbstract[PDF](https://arxiv.org/abs/1612.02287)
 
 Frank Michel, Alexander Kirillov, Eric Brachmann, Alexander Krull, Stefan Gumhold, Bogdan Savchynskyy, Carsten Rother
 
-_[This paper addresses the task of estimating the 6D pose of a known 3D object from a single RGB-D image. Most modern approaches solve this task in three steps: i) Compute local features; ii) Generate a pool of pose-hypotheses; iii) Select and refine a pose from the pool. This work focuses on the second step. While all existing approaches generate the hypotheses pool via local reasoning, e.g. RANSAC or Hough-voting, we are the first to show that global reasoning is beneficial at this stage. In particular, we formulate a novel fully-connected Conditional Random Field (CRF) that outputs a very small number of pose-hypotheses. Despite the potential functions of the CRF being non-Gaussian, we give a new and efficient two-step optimization procedure, with some guarantees for optimality. We utilize our global hypotheses generation procedure to produce results that exceed state-of-the-art for the challenging "Occluded Object Dataset".]_
+_Abstract[This paper addresses the task of estimating the 6D pose of a known 3D object from a single RGB-D image. Most modern approaches solve this task in three steps: i) Compute local features; ii) Generate a pool of pose-hypotheses; iii) Select and refine a pose from the pool. This work focuses on the second step. While all existing approaches generate the hypotheses pool via local reasoning, e.g. RANSAC or Hough-voting, we are the first to show that global reasoning is beneficial at this stage. In particular, we formulate a novel fully-connected Conditional Random Field Abstract[PDF](CRF) that outputs a very small number of pose-hypotheses. Despite the potential functions of the CRF being non-Gaussian, we give a new and efficient two-step optimization procedure, with some guarantees for optimality. We utilize our global hypotheses generation procedure to produce results that exceed state-of-the-art for the challenging "Occluded Object Dataset".]_
 
-< pose estimation>
+Comment< pose estimation>
 
 #### A Practical Method for Fully Automatic Intrinsic Camera Calibration Using Directionally Encoded Light
 
 Mahdi Abbaspour Tehrani, Thabo Beeler, Anselm GrundhÃ¶fer
 
-_[]_
+_Abstract[]_
 
-< camera calibration >
+Comment< camera calibration >
 
 #### CATS: A Color and Thermal Stereo Benchmark
 
 Wayne Treible, Philip Saponaro, Scott Sorensen, Abhishek Kolagunda, Michael O'Neal, Brian Phelan, Kelly Sherbondy, Chandra Kambhamettu
 
-_[]_
+_Abstract[]_
 
-< >
+Comment< >
 
 #### Elastic Shape-From-Template With Spatially Sparse Deforming Forces
 
 Abed Malti, Cédric Herzet
 
-_[]_
+_Abstract[]_
 
-< >
+Comment< >
 
 #### Distinguishing the Indistinguishable: Exploring Structural Ambiguities via Geodesic Context
 
 Qingan Yan, Long Yang, Ling Zhang, Chunxia Xiao
 
-_[]_
+_Abstract[]_
 
-< >
+Comment< >
 
-#### Multi-Scale Continuous CRFs as Sequential Deep Networks for Monocular Depth Estimation
-
-https://arxiv.org/abs/1704.02157
+#### Multi-Scale Continuous CRFs as Sequential Deep Networks for Monocular Depth EstimationAbstract[PDF](https://arxiv.org/abs/1704.02157)
 
 Dan Xu, Elisa Ricci, Wanli Ouyang, Xiaogang Wang, Nicu Sebe
 
-_[This paper addresses the problem of depth estimation from a single still image. Inspired by recent works on multi- scale convolutional neural networks (CNN), we propose a deep model which fuses complementary information derived from multiple CNN side outputs. Different from previous methods, the integration is obtained by means of continuous Conditional Random Fields (CRFs). In particular, we propose two different variations, one based on a cascade of multiple CRFs, the other on a unified graphical model. By designing a novel CNN implementation of mean-field updates for continuous CRFs, we show that both proposed models can be regarded as sequential deep networks and that training can be performed end-to-end. Through extensive experimental evaluation we demonstrate the effective- ness of the proposed approach and establish new state of the art results on publicly available datasets. ]_
+_Abstract[This paper addresses the problem of depth estimation from a single still image. Inspired by recent works on multi- scale convolutional neural networks Abstract[PDF](CNN), we propose a deep model which fuses complementary information derived from multiple CNN side outputs. Different from previous methods, the integration is obtained by means of continuous Conditional Random Fields Abstract[PDF](CRFs). In particular, we propose two different variations, one based on a cascade of multiple CRFs, the other on a unified graphical model. By designing a novel CNN implementation of mean-field updates for continuous CRFs, we show that both proposed models can be regarded as sequential deep networks and that training can be performed end-to-end. Through extensive experimental evaluation we demonstrate the effective- ness of the proposed approach and establish new state of the art results on publicly available datasets. ]_
 
-< depth estimation from a single still image; using multi-scale CNN's side output, integrated by continuous Conditional Random Fields (CRFs).>
+Comment< depth estimation from a single still image; using multi-scale CNN's side output, integrated by continuous Conditional Random Fields Abstract[PDF](CRFs).>
 
 #### Dynamic Time-Of-Flight
 
 Michael Schober, Amit Adam, Omer Yair, Shai Mazor, Sebastian Nowozin
 
-_[]_
+_Abstract[]_
 
-< >
+Comment< >
 
 Oral 1-1B
 
-#### Semantic Scene Completion From a Single Depth Image
-
-https://arxiv.org/abs/1611.08974
+#### Semantic Scene Completion From a Single Depth ImageAbstract[PDF](https://arxiv.org/abs/1611.08974)
 
 Shuran Song, Fisher Yu, Andy Zeng, Angel X. Chang, Manolis Savva, Thomas Funkhouser
 
-_[This paper focuses on semantic scene completion, a task for producing a complete 3D voxel representation of volumetric occupancy and semantic labels for a scene from a single-view depth map observation. Previous work has considered scene completion and semantic labeling of depth maps separately. However, we observe that these two problems are tightly intertwined. To leverage the coupled nature of these two tasks, we introduce the semantic scene completion network (SSCNet), an end-to-end 3D convolutional network that takes a single depth image as input and simultaneously outputs occupancy and semantic labels for all voxels in the camera view frustum. Our network uses a dilation-based 3D context module to efficiently expand the receptive field and enable 3D context learning. To train our network, we construct SUNCG - a manually created large-scale dataset of synthetic 3D scenes with dense volumetric annotations. Our experiments demonstrate that the joint model outperforms methods addressing each task in isolation and outperforms alternative approaches on the semantic scene completion task. ]_
+_Abstract[This paper focuses on semantic scene completion, a task for producing a complete 3D voxel representation of volumetric occupancy and semantic labels for a scene from a single-view depth map observation. Previous work has considered scene completion and semantic labeling of depth maps separately. However, we observe that these two problems are tightly intertwined. To leverage the coupled nature of these two tasks, we introduce the semantic scene completion network Abstract[PDF](SSCNet), an end-to-end 3D convolutional network that takes a single depth image as input and simultaneously outputs occupancy and semantic labels for all voxels in the camera view frustum. Our network uses a dilation-based 3D context module to efficiently expand the receptive field and enable 3D context learning. To train our network, we construct SUNCG - a manually created large-scale dataset of synthetic 3D scenes with dense volumetric annotations. Our experiments demonstrate that the joint model outperforms methods addressing each task in isolation and outperforms alternative approaches on the semantic scene completion task. ]_
 
-< >
+Comment< >
 
-#### 3DMatch: Learning Local Geometric Descriptors From RGB-D Reconstructions
-
-https://arxiv.org/abs/1603.08182
-
-http://3dmatch.cs.princeton.edu/
+#### 3DMatch: Learning Local Geometric Descriptors From RGB-D ReconstructionsAbstract[PDF](https://arxiv.org/abs/1603.08182)Abstract[PDF](http://3dmatch.cs.princeton.edu/)
 
 Andy Zeng, Shuran Song, Matthias NieÃŸner, Matthew Fisher, Jianxiong Xiao, Thomas Funkhouser
 
-_[Matching local geometric features on real-world depth images is a challenging task due to the noisy, low-resolution, and incomplete nature of 3D scan data. These difficulties limit the performance of current state-of-art methods, which are typically based on histograms over geometric properties. In this paper, we present 3DMatch, a data-driven model that learns a local volumetric patch descriptor for establishing correspondences between partial 3D data. To amass training data for our model, we propose a self-supervised feature learning method that leverages the millions of correspondence labels found in existing RGB-D reconstructions. Experiments show that our descriptor is not only able to match local geometry in new scenes for reconstruction, but also generalize to different tasks and spatial scales (e.g. instance-level object model alignment for the Amazon Picking Challenge, and mesh surface correspondence). Results show that 3DMatch consistently outperforms other state-of-the-art approaches by a significant margin. Code, data, benchmarks, and pre-trained models are available online at this http URL]_
+_Abstract[Matching local geometric features on real-world depth images is a challenging task due to the noisy, low-resolution, and incomplete nature of 3D scan data. These difficulties limit the performance of current state-of-art methods, which are typically based on histograms over geometric properties. In this paper, we present 3DMatch, a data-driven model that learns a local volumetric patch descriptor for establishing correspondences between partial 3D data. To amass training data for our model, we propose a self-supervised feature learning method that leverages the millions of correspondence labels found in existing RGB-D reconstructions. Experiments show that our descriptor is not only able to match local geometry in new scenes for reconstruction, but also generalize to different tasks and spatial scales Abstract[PDF](e.g. instance-level object model alignment for the Amazon Picking Challenge, and mesh surface correspondence). Results show that 3DMatch consistently outperforms other state-of-the-art approaches by a significant margin. Code, data, benchmarks, and pre-trained models are available online at this http URL]_
 
-< >
+Comment< >
 
-#### Multi-View Supervision for Single-View Reconstruction via Differentiable Ray Consistency (PDF, project,code)
-
-https://arxiv.org/pdf/1704.06254.pdf
-
-https://shubhtuls.github.io/drc/
+#### Multi-View Supervision for Single-View Reconstruction via Differentiable Ray Consistency Abstract[PDF](PDF, project,code)Abstract[PDF](https://arxiv.org/pdf/1704.06254.pdf)Abstract[PDF](https://shubhtuls.github.io/drc/)
 
 Shubham Tulsiani, Tinghui Zhou, Alexei A. Efros, Jitendra Malik
 
-_[We study the notion of consistency between a 3D shape and a 2D observation and propose a differentiable formulation which allows computing gradients of the 3D shape given an observation from an arbitrary view. We do so by reformulating view consistency using a differentiable ray consistency (DRC) term. We show that this formulation can be incorporated in a learning framework to leverage different types of multi-view observations e.g. foreground masks, depth, color images, semantics etc. as supervision for learning single-view 3D prediction. We present empirical analysis of our technique in a controlled setting. We also show that this approach allows us to improve over existing techniques for single-view reconstruction of objects from the PASCAL VOC dataset. ]_
+_Abstract[We study the notion of consistency between a 3D shape and a 2D observation and propose a differentiable formulation which allows computing gradients of the 3D shape given an observation from an arbitrary view. We do so by reformulating view consistency using a differentiable ray consistency Abstract[PDF](DRC) term. We show that this formulation can be incorporated in a learning framework to leverage different types of multi-view observations e.g. foreground masks, depth, color images, semantics etc. as supervision for learning single-view 3D prediction. We present empirical analysis of our technique in a controlled setting. We also show that this approach allows us to improve over existing techniques for single-view reconstruction of objects from the PASCAL VOC dataset. ]_
 
-< >
+Comment< >
 
 #### On-The-Fly Adaptation of Regression Forests for Online Camera Relocalisation
 
 Tommaso Cavallari, Stuart Golodetz, Nicholas A. Lord, Julien Valentin, Luigi Di Stefano, Philip H. S. Torr
 
-_[]_
+_Abstract[]_
 
-< >
+Comment< >
 
 ## Low- & Mid-Level Vision
 
@@ -257,7 +219,7 @@ Deep Multi-Scale Convolutional Neural Network for Dynamic Scene Deblurring
 Seungjun Nah, Tae Hyun Kim, Kyoung Mu Lee
 Diversified Texture Synthesis With Feed-Forward Networks
 Yijun Li, Chen Fang, Jimei Yang, Zhaowen Wang, Xin Lu, Ming-Hsuan Yang
-Radiometric Calibration for Internet Photo Collections (PDF)
+Radiometric Calibration for Internet Photo Collections Abstract[PDF](PDF)
 Zhipeng Mo, Boxin Shi, Sai-Kit Yeung, Yasuyuki Matsushita
 Deeply Aggregated Alternating Minimization for Image Restoration
 Youngjung Kim, Hyungjoo Jung, Dongbo Min, Kwanghoon Sohn
@@ -266,7 +228,7 @@ Mengye Ren, Richard S. Zemel
 Oral 1-1C
 SRN: Side-output Residual Network for Object Symmetry Detection in the Wild
 Wei Ke, Jie Chen, Jianbin Jiao, Guoying Zhao, Qixiang Ye
-Deep Image Matting (PDF, abstract)
+Deep Image Matting Abstract[PDF](PDF, abstract)
 Ning Xu, Brian Price, Scott Cohen, Thomas Huang
 Wetness and Color From a Single Multispectral Image
 Mihoko Shimano, Hiroki Okawa, Yuta Asano, Ryoma Bise, Ko Nishino, Imari Sato
@@ -282,7 +244,7 @@ A Linear Extrinsic Calibration of Kaleidoscopic Imaging System From Single 3D Po
 Kosuke Takahashi, Akihiro Miyata, Shohei Nobuhara, Takashi Matsuyama
 Polarimetric Multi-View Stereo
 Zhaopeng Cui, Jinwei Gu, Boxin Shi, Ping Tan, Jan Kautz
-An Exact Penalty Method for Locally Convergent Maximum Consensus (PDF, code)
+An Exact Penalty Method for Locally Convergent Maximum Consensus Abstract[PDF](PDF, code)
 Huu Le, Tat-Jun Chin, David Suter
 Deep Supervision With Shape Concepts for Occlusion-Aware 3D Object Parsing
 Chi Li, M. Zeeshan Zia, Quoc-Huy Tran, Xiang Yu, Gregory D. Hager, Manmohan Chandraker
@@ -297,7 +259,7 @@ Detecting Masked Faces in the Wild With LLE-CNNs
 Shiming Ge, Jia Li, Qiting Ye, Zhao Luo
 A Domain Based Approach to Social Relation Recognition
 Qianru Sun, Bernt Schiele, Mario Fritz
-Spatio-Temporal Naive-Bayes Nearest-Neighbor (ST-NBNN) for Skeleton-Based Action Recognition
+Spatio-Temporal Naive-Bayes Nearest-Neighbor Abstract[PDF](ST-NBNN) for Skeleton-Based Action Recognition
 Junwu Weng, Chaoqun Weng, Junsong Yuan
 Personalizing Gesture Recognition Using Hierarchical Bayesian Neural Networks
 Ajjen Joshi, Soumya Ghosh, Margrit Betke, Stan Sclaroff, Hanspeter Pfister
@@ -358,9 +320,9 @@ The Incremental Multiresolution Matrix Factorization Algorithm
 Vamsi K. Ithapu, Risi Kondor, Sterling C. Johnson, Vikas Singh
 Transformation-Grounded Image Generation Network for Novel 3D View Synthesis
 Eunbyung Park, Jimei Yang, Ersin Yumer, Duygu Ceylan, Alexander C. Berg
-Learning Dynamic Guidance for Depth Image Enhancement (PDF)
+Learning Dynamic Guidance for Depth Image Enhancement Abstract[PDF](PDF)
 Shuhang Gu, Wangmeng Zuo, Shi Guo, Yunjin Chen, Chongyu Chen, Lei Zhang
-A-Lamp: Adaptive Layout-Aware Multi-Patch Deep Convolutional Neural Network for Photo Aesthetic Assessment (PDF)
+A-Lamp: Adaptive Layout-Aware Multi-Patch Deep Convolutional Neural Network for Photo Aesthetic Assessment Abstract[PDF](PDF)
 Shuang Ma, Jing Liu, Chang Wen Chen
 Teaching Compositionality to CNNs
 Austin Stone, Huayan Wang, Michael Stark, Yi Liu, D. Scott Phoenix, Dileep George
@@ -369,7 +331,7 @@ Shixing Chen, Caojin Zhang, Ming Dong, Jialiang Le, Mike Rao
 Accurate Single Stage Detector Using Recurrent Rolling Convolution
 Jimmy Ren, Xiaohao Chen, Jianbo Liu, Wenxiu Sun, Jiahao Pang, Qiong Yan, Yu-Wing Tai, Li Xu
 A Compact DNN: Approaching GoogLeNet-Level Accuracy of Classification and Domain Adaptation
-Chunpeng Wu, Wei Wen, Tariq Afzal, Yongmei Zhang, Yiran Chen, Hai (Helen) Li
+Chunpeng Wu, Wei Wen, Tariq Afzal, Yongmei Zhang, Yiran Chen, Hai Abstract[PDF](Helen) Li
 The Impact of Typicality for Informative Representative Selection
 Jawadul H. Bappy, Sujoy Paul, Ertem Tuncel, Amit K. Roy-Chowdhury
 Infinite Variational Autoencoder for Semi-Supervised Learning
@@ -485,7 +447,7 @@ Disentangled Representation Learning GAN for Pose-Invariant Face Recognition
 Luan Tran, Xi Yin, Xiaoming Liu
 ArtTrack: Articulated Multi-Person Tracking in the Wild
 Eldar Insafutdinov, Mykhaylo Andriluka, Leonid Pishchulin, Siyu Tang, Evgeny Levinkov, Bjoern Andres, Bernt Schiele
-Realtime Multi-Person 2D Pose Estimation Using Part Affinity Fields (PDF, code)
+Realtime Multi-Person 2D Pose Estimation Using Part Affinity Fields Abstract[PDF](PDF, code)
 Zhe Cao, Tomas Simon, Shih-En Wei, Yaser Sheikh
 Image Motion & Tracking; Video Analysis
 Spotlight 1-2C
@@ -819,7 +781,7 @@ Material Classification Using Frequency- and Depth-Dependent Time-Of-Flight Dist
 Kenichiro Tanaka, Yasuhiro Mukaigawa, Takuya Funatomi, Hiroyuki Kubo, Yasuyuki Matsushita, Yasushi Yagi
 Benchmarking Denoising Algorithms With Real Photographs
 Tobias PlÃ¶tz, Stefan Roth
-A Unified Approach of Multi-Scale Deep and Hand-Crafted Features for Defocus Estimation (PDF, project)
+A Unified Approach of Multi-Scale Deep and Hand-Crafted Features for Defocus Estimation Abstract[PDF](PDF, project)
 Jinsun Park, Yu-Wing Tai, Donghyeon Cho, In So Kweon
 StyleBank: An Explicit Representation for Neural Image Style Transfer
 Dongdong Chen, Lu Yuan, Jing Liao, Nenghai Yu, Gang Hua
@@ -829,7 +791,7 @@ Image Super-Resolution via Deep Recursive Residual Network
 Ying Tai, Jian Yang, Xiaoming Liu
 Deep Image Harmonization
 Yi-Hsuan Tsai, Xiaohui Shen, Zhe Lin, Kalyan Sunkavalli, Xin Lu, Ming-Hsuan Yang
-Learning Deep CNN Denoiser Prior for Image Restoration (PDF, code)
+Learning Deep CNN Denoiser Prior for Image Restoration Abstract[PDF](PDF, code)
 Kai Zhang, Wangmeng Zuo, Shuhang Gu, Lei Zhang
 A Novel Tensor-Based Video Rain Streaks Removal Approach via Utilizing Discriminatively Intrinsic Priors
 Tai-Xiang Jiang, Ting-Zhu Huang, Xi-Le Zhao, Liang-Jian Deng, Yao Wang
@@ -1322,7 +1284,7 @@ Oriented Response Networks
 Yanzhao Zhou, Qixiang Ye, Qiang Qiu, Jianbin Jiao
 Missing Modalities Imputation via Cascaded Residual Autoencoder
 Luan Tran, Xiaoming Liu, Jiayu Zhou, Rong Jin
-Efficient Optimization for Hierarchically-structured Interacting Segments (HINTS)
+Efficient Optimization for Hierarchically-structured Interacting Segments Abstract[PDF](HINTS)
 Hossam Isack, Olga Veksler, Ipek Oguz, Milan Sonka, Yuri Boykov
 A Message Passing Algorithm for the Minimum Cost Multicut Problem
 Paul Swoboda, Bjoern Andres
@@ -1402,7 +1364,7 @@ Qibin Hou, Ming-Ming Cheng, Xiaowei Hu, Ali Borji, Zhuowen Tu, Philip H. S. Torr
 A Matrix Splitting Method for Composite Function Minimization
 Ganzhao Yuan, Wei-Shi Zheng, Bernard Ghanem
 Video Analytics
-One-Shot Video Object Segmentation (PDF, project, code, code)
+One-Shot Video Object Segmentation Abstract[PDF](PDF, project, code, code)
 Sergi Caelles, Kevis-Kokitsi Maninis, Jordi Pont-Tuset, Laura Leal-TaixÃ©, Daniel Cremers, Luc Van Gool
 Fast Person Re-Identification via Cross-Camera Semantic Binary Transformation
 Jiaxin Chen, Yunhong Wang, Jie Qin, Li Liu, Ling Shao
@@ -1494,7 +1456,7 @@ Denis Tome, Chris Russell, Lourdes Agapito
 AdaScan: Adaptive Scan Pooling in Deep Convolutional Neural Networks for Human Action Recognition in Videos
 Amlan Kar, Nishant Rai, Karan Sikka, Gaurav Sharma
 Deep Structured Learning for Facial Action Unit Intensity Estimation
-Robert Walecki, Ognjen (Oggi) Rudovic, Vladimir Pavlovic, BjÃ¶ern Schuller, Maja Pantic
+Robert Walecki, Ognjen Abstract[PDF](Oggi) Rudovic, Vladimir Pavlovic, BjÃ¶ern Schuller, Maja Pantic
 Simultaneous Facial Landmark Detection, Pose and Deformation Estimation Under Facial Occlusion
 Yue Wu, Chao Gou, Qiang Ji
 Self-Supervised Video Representation Learning With Odd-One-Out Networks
@@ -1729,7 +1691,7 @@ Binary Coding for Partial Action Analysis With Limited Observation Ratios
 Jie Qin, Li Liu, Ling Shao, Bingbing Ni, Chen Chen, Fumin Shen, Yunhong Wang
 SphereFace: Deep Hypersphere Embedding for Face Recognition
 Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Raj, Le Song
-IRINA: Iris Recognition (Even) in Inaccurately Segmented Data
+IRINA: Iris Recognition Abstract[PDF](Even) in Inaccurately Segmented Data
 Hugo ProenÃ§a, JoÃ£o C. Neves
 Look Into Person: Self-Supervised Structure-Sensitive Learning and a New Benchmark for Human Parsing
 Ke Gong, Xiaodan Liang, Dongyu Zhang, Xiaohui Shen, Liang Lin
@@ -1769,7 +1731,7 @@ Improved Stereo Matching With Constant Highway Networks and Reflective Confidenc
 Amit Shaked, Lior Wolf
 Optical Flow in Mostly Rigid Scenes
 Jonas Wulff, Laura Sevilla-Lara, Michael J. Black
-Optical Flow Requires Multiple Strategies (but Only One Network)
+Optical Flow Requires Multiple Strategies Abstract[PDF](but Only One Network)
 Tal Schuster, Lior Wolf, David Gadot
 ECO: Efficient Convolution Operators for Tracking
 Martin Danelljan, Goutam Bhat, Fahad Shahbaz Khan, Michael Felsberg
