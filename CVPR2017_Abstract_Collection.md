@@ -1,11 +1,11 @@
+# CVPR 2017 Abstracts Collection
+_Collection of CVPR 2017, including titles, links, authors, abstracts and my own comments. Created by Michael Liang, NUDT. Note that ** and <  > are my own comments._
 
-#CVPR 2017 Abstracts Collection
-_Created by Michael Liang, NUDT. Note that ** and <  > are my own comments._
-##Machine Learning 1
+## Machine Learning 1
 
 Spotlight 1-1A
 
-####Exclusivity-Consistency Regularized Multi-View Subspace Clustering
+#### Exclusivity-Consistency Regularized Multi-View Subspace Clustering
 
 Xiaobo Wang, Xiaojie Guo, Zhen Lei, Changqing Zhang, Stan Z. Li
 
@@ -13,7 +13,8 @@ _[]_
 
 <>
 
-####*Borrowing Treasures From the Wealthy: Deep Transfer Learning Through Selective Joint Fine-Tuning
+#### *Borrowing Treasures From the Wealthy: Deep Transfer Learning Through Selective Joint Fine-Tuning
+
 https://arxiv.org/abs/1702.08690
 
 Weifeng Ge, Yizhou Yu
@@ -22,7 +23,8 @@ _[Deep neural networks require a large amount of labeled training data during su
 
 <a source-target selective joint fine-tuning scheme with insufficient training data; insufficient & abundant task with similar low-level feature trained simultaneously; share conv layers; help labelling data,>
 
-####**The More You Know: Using Knowledge Graphs for Image Classification
+#### **The More You Know: Using Knowledge Graphs for Image Classification
+
 https://arxiv.org/abs/1612.04844
 
 Kenneth Marino, Ruslan Salakhutdinov, Abhinav Gupta
@@ -31,7 +33,8 @@ _[One characteristic that sets humans apart from modern learning-based computer 
 
 < the real way to AI >
 
-####Dynamic Edge-Conditioned Filters in Convolutional Neural Networks on Graphs
+#### Dynamic Edge-Conditioned Filters in Convolutional Neural Networks on Graphs
+
 https://arxiv.org/abs/1704.02901
 
 Martin Simonovsky, Nikos Komodakis
@@ -39,7 +42,8 @@ _[A number of problems can be formulated as prediction on graph-structured data.
 
 < graph-structured data >
 
-####*Convolutional Neural Network Architecture for Geometric Matching
+#### *Convolutional Neural Network Architecture for Geometric Matching
+
 https://arxiv.org/abs/1703.05593
 
 Ignacio Rocco, Relja ArandjeloviÄ‡, Josef Sivic
@@ -48,7 +52,8 @@ _[We address the problem of determining correspondences between two images in ag
 
 < geomatric matching; synthetically generated image; instance-level& category-level; matching layer,> 
 
-####Deep Affordance-Grounded Sensorimotor Object Recognition
+#### Deep Affordance-Grounded Sensorimotor Object Recognition
+
 https://arxiv.org/abs/1704.02787
 
 Spyridon Thermos, Georgios Th. Papadopoulos, Petros Daras, Gerasimos Potamianos
@@ -57,7 +62,8 @@ _[It is well-established by cognitive neuroscience that human perception of obje
 
 < Sensorimotor Object Recognition >
 
-####Discovering Causal Signals in Images
+#### Discovering Causal Signals in Images
+
 https://arxiv.org/abs/1605.08179
 
 David Lopez-Paz, Robert Nishihara, Soumith Chintala, Bernhard SchÃ¶lkopf, Léon Bottou
@@ -66,7 +72,7 @@ _[The purpose of this paper is to point out and assay observable causal signals 
 
 < causal singals>
 
-####*On Compressing Deep Models by Low Rank and Sparse Decomposition
+#### *On Compressing Deep Models by Low Rank and Sparse Decomposition
 
 Xiyu Yu, Tongliang Liu, Xinchao Wang, Dacheng Tao
 
@@ -76,7 +82,8 @@ _[]_
 
 Oral 1-1A
 
-####PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation
+#### PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation
+
 https://arxiv.org/abs/1612.00593
 
 Charles R. Qi, Hao Su, Kaichun Mo, Leonidas J. Guibas
@@ -85,7 +92,8 @@ _[Point cloud is an important type of geometric data structure. Due to its irreg
 
 < point cloud, 3D>
 
-####***Universal Adversarial Perturbations
+#### ***Universal Adversarial Perturbations
+
 https://arxiv.org/abs/1610.08401
 
 Seyed-Mohsen Moosavi-Dezfooli, Alhussein Fawzi, Omar Fawzi, Pascal Frossard
@@ -94,7 +102,8 @@ _[Given a state-of-the-art deep neural network classifier, we show the existence
 
 < using unseen perturbations to break a classifier, destory DL>
 
-####*Unsupervised Pixel-Level Domain Adaptation With Generative Adversarial Networks
+#### *Unsupervised Pixel-Level Domain Adaptation With Generative Adversarial Networks
+
 https://arxiv.org/abs/1612.05424
 
 Konstantinos Bousmalis, Nathan Silberman, David Dohan, Dumitru Erhan, Dilip Krishnan
@@ -103,8 +112,10 @@ _[Collecting well-annotated image datasets to train modern machine learning algo
 
 < generate domain-invariant annotations, adapts source-domain images to appear as if drawn from the target domain ;GAN>
 
-####Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network (PDF, code)
+#### Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network (PDF, code)
+
 https://arxiv.org/pdf/1609.04802.pdf
+
 https://github.com/leehomyc/Photo-Realistic-Super-Resoluton
 
 Christian Ledig, Lucas Theis, Ferenc HuszÃƒÂ¡r, Jose Caballero, Andrew Cunningham, Alejandro Acosta, Andrew Aitken, Alykhan Tejani, Johannes Totz, Zehan Wang, Wenzhe Shi
@@ -113,11 +124,12 @@ _[Despite the breakthroughs in accuracy and speed of single image super-resoluti
 
 < Super-Resolution, GAN>
 
-##3D Vision 1
+## 3D Vision 1
 
 Spotlight 1-1B
 
-####Context-Aware Captions From Context-Agnostic Supervision
+#### Context-Aware Captions From Context-Agnostic Supervision
+
 https://arxiv.org/abs/1701.02870
 
 Ramakrishna Vedantam, Samy Bengio, Kevin Murphy, Devi Parikh, Gal Chechik
@@ -126,7 +138,8 @@ _[We introduce an inference technique to produce discriminative context-aware im
 
 < distinguished image caption>
 
-####Global Hypothesis Generation for 6D Object Pose Estimation
+#### Global Hypothesis Generation for 6D Object Pose Estimation
+
 https://arxiv.org/abs/1612.02287
 
 Frank Michel, Alexander Kirillov, Eric Brachmann, Alexander Krull, Stefan Gumhold, Bogdan Savchynskyy, Carsten Rother
@@ -135,7 +148,7 @@ _[This paper addresses the task of estimating the 6D pose of a known 3D object f
 
 < pose estimation>
 
-####A Practical Method for Fully Automatic Intrinsic Camera Calibration Using Directionally Encoded Light
+#### A Practical Method for Fully Automatic Intrinsic Camera Calibration Using Directionally Encoded Light
 
 Mahdi Abbaspour Tehrani, Thabo Beeler, Anselm GrundhÃ¶fer
 
@@ -143,7 +156,7 @@ _[]_
 
 < camera calibration >
 
-####CATS: A Color and Thermal Stereo Benchmark
+#### CATS: A Color and Thermal Stereo Benchmark
 
 Wayne Treible, Philip Saponaro, Scott Sorensen, Abhishek Kolagunda, Michael O'Neal, Brian Phelan, Kelly Sherbondy, Chandra Kambhamettu
 
@@ -151,7 +164,7 @@ _[]_
 
 < >
 
-####Elastic Shape-From-Template With Spatially Sparse Deforming Forces
+#### Elastic Shape-From-Template With Spatially Sparse Deforming Forces
 
 Abed Malti, Cédric Herzet
 
@@ -159,7 +172,7 @@ _[]_
 
 < >
 
-####Distinguishing the Indistinguishable: Exploring Structural Ambiguities via Geodesic Context
+#### Distinguishing the Indistinguishable: Exploring Structural Ambiguities via Geodesic Context
 
 Qingan Yan, Long Yang, Ling Zhang, Chunxia Xiao
 
@@ -167,7 +180,8 @@ _[]_
 
 < >
 
-####Multi-Scale Continuous CRFs as Sequential Deep Networks for Monocular Depth Estimation
+#### Multi-Scale Continuous CRFs as Sequential Deep Networks for Monocular Depth Estimation
+
 https://arxiv.org/abs/1704.02157
 
 Dan Xu, Elisa Ricci, Wanli Ouyang, Xiaogang Wang, Nicu Sebe
@@ -176,7 +190,7 @@ _[This paper addresses the problem of depth estimation from a single still image
 
 < depth estimation from a single still image; using multi-scale CNN's side output, integrated by continuous Conditional Random Fields (CRFs).>
 
-####Dynamic Time-Of-Flight
+#### Dynamic Time-Of-Flight
 
 Michael Schober, Amit Adam, Omer Yair, Shai Mazor, Sebastian Nowozin
 
@@ -186,7 +200,8 @@ _[]_
 
 Oral 1-1B
 
-####Semantic Scene Completion From a Single Depth Image
+#### Semantic Scene Completion From a Single Depth Image
+
 https://arxiv.org/abs/1611.08974
 
 Shuran Song, Fisher Yu, Andy Zeng, Angel X. Chang, Manolis Savva, Thomas Funkhouser
@@ -195,8 +210,10 @@ _[This paper focuses on semantic scene completion, a task for producing a comple
 
 < >
 
-####3DMatch: Learning Local Geometric Descriptors From RGB-D Reconstructions
+#### 3DMatch: Learning Local Geometric Descriptors From RGB-D Reconstructions
+
 https://arxiv.org/abs/1603.08182
+
 http://3dmatch.cs.princeton.edu/
 
 Andy Zeng, Shuran Song, Matthias NieÃŸner, Matthew Fisher, Jianxiong Xiao, Thomas Funkhouser
@@ -205,8 +222,10 @@ _[Matching local geometric features on real-world depth images is a challenging 
 
 < >
 
-####Multi-View Supervision for Single-View Reconstruction via Differentiable Ray Consistency (PDF, project,code)
+#### Multi-View Supervision for Single-View Reconstruction via Differentiable Ray Consistency (PDF, project,code)
+
 https://arxiv.org/pdf/1704.06254.pdf
+
 https://shubhtuls.github.io/drc/
 
 Shubham Tulsiani, Tinghui Zhou, Alexei A. Efros, Jitendra Malik
@@ -215,7 +234,7 @@ _[We study the notion of consistency between a 3D shape and a 2D observation and
 
 < >
 
-####On-The-Fly Adaptation of Regression Forests for Online Camera Relocalisation
+#### On-The-Fly Adaptation of Regression Forests for Online Camera Relocalisation
 
 Tommaso Cavallari, Stuart Golodetz, Nicholas A. Lord, Julien Valentin, Luigi Di Stefano, Philip H. S. Torr
 
@@ -223,11 +242,11 @@ _[]_
 
 < >
 
-##Low- & Mid-Level Vision
+## Low- & Mid-Level Vision
 
 Spotlight 1-1C
 
-####Designing Effective Inter-Pixel Information Flow for Natural Image Matting
+#### Designing Effective Inter-Pixel Information Flow for Natural Image Matting
 
 YaÄŸiz Aksoy, TunÃ§ Ozan Aydin, Marc Pollefeys
 Deep Video Deblurring for Hand-Held Cameras
