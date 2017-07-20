@@ -823,25 +823,25 @@ Antonio Agudo, Francesc Moreno-Noguer
 
 ## Analyzing Humans in Images
 
-Finding Tiny Faces
+####Finding Tiny Faces
 Peiyun Hu, Deva Ramanan
-Dynamic Facial Analysis: From Bayesian Filtering to Recurrent Neural Network
+####Dynamic Facial Analysis: From Bayesian Filtering to Recurrent Neural Network
 Jinwei Gu, Xiaodong Yang, Shalini De Mello, Jan Kautz
-Deep Temporal Linear Encoding Networks
+####Deep Temporal Linear Encoding Networks
 Ali Diba, Vivek Sharma, Luc Van Gool
-Joint Registration and Representation Learning for Unconstrained Face Identification
+####Joint Registration and Representation Learning for Unconstrained Face Identification
 Munawar Hayat, Salman H. Khan, Naoufel Werghi, Roland Goecke
-3D Human Pose Estimation From a Single Image via Distance Matrix Regression
+####3D Human Pose Estimation From a Single Image via Distance Matrix Regression
 Francesc Moreno-Noguer
-One-Shot Metric Learning for Person Re-Identification
+####One-Shot Metric Learning for Person Re-Identification
 Slawomir BÄ…k, Peter Carr
-Generalized Rank Pooling for Activity Recognition
+####Generalized Rank Pooling for Activity Recognition
 Anoop Cherian, Basura Fernando, Mehrtash Harandi, Stephen Gould
-Deep Representation Learning for Human Motion Prediction and Classification
+####Deep Representation Learning for Human Motion Prediction and Classification
 Judith BÃ¼tepage, Michael J. Black, Danica Kragic, Hedvig KjellstrÃ¶m
-Interspecies Knowledge Transfer for Facial Keypoint Detection
+####Interspecies Knowledge Transfer for Facial Keypoint Detection
 Maheen Rashid, Xiuye Gu, Yong Jae Lee
-Recurrent Convolutional Neural Networks for Continuous Sign Language Recognition by Staged Optimization
+####Recurrent Convolutional Neural Networks for Continuous Sign Language Recognition by Staged Optimization
 Runpeng Cui, Hu Liu, Changshui Zhang
 
 ## Applications
