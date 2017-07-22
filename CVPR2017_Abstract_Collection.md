@@ -2778,57 +2778,57 @@ _**Comment**_: &emsp;_< >_
 
 # Poster 4-2
 
-3D Computer Vision
-SGM-Nets: Semi-Global Matching With Neural Networks
+## 3D Computer Vision
+#### SGM-Nets: Semi-Global Matching With Neural Networks
 Akihito Seki, Marc Pollefeys
-Stereo-Based 3D Reconstruction of Dynamic Fluid Surfaces by Global Optimization
+#### Stereo-Based 3D Reconstruction of Dynamic Fluid Surfaces by Global Optimization
 Yiming Qian, Minglun Gong, Yee-Hong Yang
-Fine-To-Coarse Global Registration of RGB-D Scans
+#### Fine-To-Coarse Global Registration of RGB-D Scans
 Maciej Halber, Thomas Funkhouser
-Analyzing Computer Vision Data - The Good, the Bad and the Ugly
+#### Analyzing Computer Vision Data - The Good, the Bad and the Ugly
 Oliver Zendel, Katrin Honauer, Markus Murschitz, Martin Humenberger, Gustavo FernÃ¡ndez DomÃ­nguez
-Product Manifold Filter: Non-Rigid Shape Correspondence via Kernel Density Estimation in the Product Space
+#### Product Manifold Filter: Non-Rigid Shape Correspondence via Kernel Density Estimation in the Product Space
 Matthias Vestner, Roee Litman, Emanuele RodolÃ , Alex Bronstein, Daniel Cremers
-Unsupervised Vanishing Point Detection and Camera Calibration From a Single Manhattan Image With Radial Distortion
+#### Unsupervised Vanishing Point Detection and Camera Calibration From a Single Manhattan Image With Radial Distortion
 Michel Antunes, JoÃ£o P. Barreto, Djamila Aouada, BjÃ¶rn Ottersten
-Toroidal Constraints for Two-Point Localization Under High Outlier Ratios
+#### Toroidal Constraints for Two-Point Localization Under High Outlier Ratios
 Federico Camposeco, Torsten Sattler, Andrea Cohen, Andreas Geiger, Marc Pollefeys
-4D Light Field Superpixel and Segmentation
+#### 4D Light Field Superpixel and Segmentation
 Hao Zhu, Qi Zhang, Qing Wang
-Exploiting Symmetry and/or Manhattan Properties for 3D Object Structure Estimation From Single and Multiple Images
+#### Exploiting Symmetry and/or Manhattan Properties for 3D Object Structure Estimation From Single and Multiple Images
 Yuan Gao, Alan L. Yuille
-Analyzing Humans in Images
-Binary Coding for Partial Action Analysis With Limited Observation Ratios
+## Analyzing Humans in Images
+#### Binary Coding for Partial Action Analysis With Limited Observation Ratios
 Jie Qin, Li Liu, Ling Shao, Bingbing Ni, Chen Chen, Fumin Shen, Yunhong Wang
-SphereFace: Deep Hypersphere Embedding for Face Recognition
+#### SphereFace: Deep Hypersphere Embedding for Face Recognition
 Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Raj, Le Song
-IRINA: Iris Recognition (Even) in Inaccurately Segmented Data
+#### IRINA: Iris Recognition (Even) in Inaccurately Segmented Data
 Hugo ProenÃ§a, JoÃ£o C. Neves
-Look Into Person: Self-Supervised Structure-Sensitive Learning and a New Benchmark for Human Parsing
+#### Look Into Person: Self-Supervised Structure-Sensitive Learning and a New Benchmark for Human Parsing
 Ke Gong, Xiaodan Liang, Dongyu Zhang, Xiaohui Shen, Liang Lin
-Action Unit Detection With Region Adaptation, Multi-Labeling Learning and Optimal Temporal Fusing
+#### Action Unit Detection With Region Adaptation, Multi-Labeling Learning and Optimal Temporal Fusing
 Wei Li, Farnaz Abtahi, Zhigang Zhu
-See the Forest for the Trees: Joint Spatial and Temporal Recurrent Neural Networks for Video-Based Person Re-Identification
+#### See the Forest for the Trees: Joint Spatial and Temporal Recurrent Neural Networks for Video-Based Person Re-Identification
 Zhen Zhou, Yan Huang, Wei Wang, Liang Wang, Tieniu Tan
-Joint Intensity and Spatial Metric Learning for Robust Gait Recognition
+#### Joint Intensity and Spatial Metric Learning for Robust Gait Recognition
 Yasushi Makihara, Atsuyuki Suzuki, Daigo Muramatsu, Xiang Li, Yasushi Yagi
-Pose-Aware Person Recognition
+#### Pose-Aware Person Recognition
 Vijay Kumar, Anoop Namboodiri, Manohar Paluri, C. V. Jawahar
-Not Afraid of the Dark: NIR-VIS Face Recognition via Cross-Spectral Hallucination and Low-Rank Embedding
+#### Not Afraid of the Dark: NIR-VIS Face Recognition via Cross-Spectral Hallucination and Low-Rank Embedding
 José Lezama, Qiang Qiu, Guillermo Sapiro
-Applications
-Jointly Learning Energy Expenditures and Activities Using Egocentric Multimodal Signals
+## Applications
+#### Jointly Learning Energy Expenditures and Activities Using Egocentric Multimodal Signals
 Katsuyuki Nakamura, Serena Yeung, Alexandre Alahi, Li Fei-Fei
-Binarized Mode Seeking for Scalable Visual Pattern Discovery
+#### Binarized Mode Seeking for Scalable Visual Pattern Discovery
 Wei Zhang, Xiaochun Cao, Rui Wang, Yuanfang Guo, Zhineng Chen
-Scribbler: Controlling Deep Image Synthesis With Sketch and Color
+#### Scribbler: Controlling Deep Image Synthesis With Sketch and Color
 Patsorn Sangkloy, Jingwan Lu, Chen Fang, Fisher Yu, James Hays
-Biomedical Image/Video Analysis
-Multi-Way Multi-Level Kernel Modeling for Neuroimaging Classification
+## Biomedical Image/Video Analysis
+#### Multi-Way Multi-Level Kernel Modeling for Neuroimaging Classification
 Lifang He, Chun-Ta Lu, Hao Ding, Shen Wang, Linlin Shen, Philip S. Yu, Ann B. Ragin
-WSISA: Making Survival Prediction From Whole Slide Histopathological Images
+#### WSISA: Making Survival Prediction From Whole Slide Histopathological Images
 Xinliang Zhu, Jiawen Yao, Feiyun Zhu, Junzhou Huang
-Computational Photography
+## Computational Photography
 On the Effectiveness of Visible Watermarks
 Tali Dekel, Michael Rubinstein, Ce Liu, William T. Freeman
 Snapshot Hyperspectral Light Field Imaging
